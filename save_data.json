@@ -1,0 +1,36 @@
+{
+  "user": {
+    "last_played": 1747683998.315496,
+    "total_time": 0,
+    "difficulty": "Легкий"
+  },
+  "exercises": {
+    "pathfinder": {
+      "best_score": 0,
+      "stars": 0,
+      "times_played": 0
+    },
+    "trajectory": {
+      "best_score": 0,
+      "stars": 0,
+      "times_played": 0
+    },
+    "sorting": {
+      "best_score": 0,
+      "stars": 0,
+      "times_played": 0
+    },
+    "sequence": {
+      "best_score": 0,
+      "stars": 0,
+      "times_played": 0
+    },
+    "fast_fingers": {
+      "best_score": 0,
+      "stars": 0,
+      "times_played": 0
+    }
+  },
+  "achievements": [],
+  "collected_items": []
+}
