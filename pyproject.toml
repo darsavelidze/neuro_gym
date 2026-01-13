@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuro-gym"
+version = "0.1.0"
+description = "Interactive motor skill training app for children"
+readme = "README.md"
+authors = [{ name = "NeuroGym Team" }]
+requires-python = ">=3.10"
+dependencies = [
+  "pygame==2.5.2",
+  "opencv-python>=4.10",
+  "mediapipe>=0.10.9",
+]
+
+[project.scripts]
+neuro-gym = "neuro_gym.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

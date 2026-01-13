@@ -28,6 +28,18 @@ build/
 # OS specific files
 .DS_Store
 Thumbs.db
+# Report and generation scripts
+generate_report.py
+generate_report example.py
+save_data.json
+# Test and check scripts
+test_imports.py
+# Documentation and requirements
+technical_specification.md
+Требования.md
+Отчет_*
+Отчёт_NeuroGym*
+Требования*
 
 # Save data (consider if you want to version control this or not)
 # save_data.json
